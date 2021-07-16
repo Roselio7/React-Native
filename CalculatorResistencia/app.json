@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "CalculadorResistencia",
+    "slug": "CalculatorResistencia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Res.png",
+    "splash": {
+      "image": "./assets/Resistor.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#37c732"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Res.png",
+        "backgroundColor": "#FFFFFF",
+      },
+      "package": "com.idealsoft.resistorcalculator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
